@@ -1,67 +1,133 @@
-<!DOCTYPE html>
-<html >
+<!DOCTYPE HTML>
+<html>
   <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="Style.css">
-
-    <title>SMEBIRD Introduction to Programming (Udacity)</title>
+    <title>
+    SMEBIRD Introduction to Programming (Udacity) 
+    </title>
   </head>
   <body>
-  <H1>Unit 1: Basics of the Web</H1>
-  <h2>What is the web?</h2>
-  <p>The web is a bunch of computers that communcate with each other.</p>
-  <h2>How does the web work?</h2>
-  <P>The web has four main components:</P>
-  <b>(1) You:</b> You want to visit a web page<br>
-  <b>(2) Your computer plus a Browser:</b> Your browser makes a request via the internet <br>
-  <b>(3) The internet:</b> Sends an HTTP request to a server<br>
-  <b>(4) Servers:</b> Locates appropriate HTML document and sends it back to your computer<br>
-  where your web browser interprets the page and displays it on your computer screen
-  <h2>What is a web page?</h2>
-  <p>A web page is a document written in a language called HTML.  Web browsers<br>
-    read these documents, and the interpret and display them.
-  </p>
-  <h2>What is HTML?</h2>
-  <p><b>HTML</b> (<b>H</b>yper<b>T</b>ext <b>M</b>arkup <b>L</b>anguage) is the heart of the web.
-  </p>
-  <p>HTML is made up of:</p>
-  -- Text content (What you see)<br>
-  -- Markup (What the text looks like)<br>
-  -- References to other documents (eg: images, videos, etc...)<br>
-  -- Links to other pages
-  <p>Basic HTML vocabulary you should know:</p>
-
-  <!-- I honestly couldn't figure this out from the videos, so I looked up an explanation at
-  http://www.456bereastreet.com/archive/200508/html_tags_vs_elements_vs_attributes/ . I am
-  copying-rewording the explanation from that web page-->
-
-  <b>Element:</b> A structure in HTML that consists of an opening tag, content, and a closing tag.<br>
-  <b>Tags:</b> Tags mark the beginning and end of an Element.  They are made of a less-than <br>
-  symbol, followed by the Element's name, followed by a greater-than symbol.<br>
-  <b>Attributes and values:</b>  Attributes follow tags and point to a value. Examples are<br>
-  images and links to other web pages<br><br>
- <em> Elements can be either <em><b>inline</b></em> (effecting just the text enclosed by tags), or
-  <b>block</b> <br>(block elements have an invisible box around them with height and
-  width that separates<br> them from any other element).<br>
-  While most Elements have both an <em><b>opening</b></em> and <em><b>closing</b></em> tag,
-  some Elements use only one tag<br> and are referred to as <b>void.</b></em><br>
-  <h2>A Couple Other Points to Remember:</h2>
-
-  <h3>Computers are stupid</h3>
-  Why?  Because they interpret instruction literally.  If you use the wrong Element<br>
-  name in your opening tag or make a typo, a computer cannot "know" what you intended.
-  <br> A program will only work if the instructions are clear and the grammar correct.
-  <h3>There Is Far Too Much to Remember</h3>
- Don't try to memorize every single fact.  Instead, concentrate on understanding<br>
- how programming languages work, and rely on the internet to remind you of an <br>
- Element's name or a particular structure.
- <a href="http://imgur.com/sP5t5gz"><img src="http://i.imgur.com/sP5t5gz.jpg" title="source: imgur.com" /></a>
+  <div>
+    <H1>Lesson 1.1: Basics of the Web</H1> 
+    <div>
+      <h2>What is the web?</h2>
+      <p>The web is a bunch of computers that communicate with each other.</p>
+    </div>
+    <div>
+      <h2>How does the web work?</h2>
+      <P>The web has four main components:</P>
+      <ol>
+        <li><strong>You:</strong> You want to visit a web page</li>
+        <li><strong>Your computer plus a Browser:</strong> Your browser makes a request via the internet</li>
+        <li><strong>The internet:</strong> Sends an HTTP request to a server</li>
+        <li><strong>Server:</strong> Locates appropriate HTML document and sends it back to your computer where your web browser interprets the page and displays it on your computer screen</li>
+      </ol>
+    </div>
+    <div>
+      <h2>What is a web page?</h2>
+        <p>
+          A web page is a document written in a language called HTML.  Web browsers read these documents, and the interpret and display them.  
+        </p>
+    </div>
+    <div>
+      <h2>What is HTML?</h2>
+        <p>
+          <b>HTML</b> (<b>H</b>yper<b>T</b>ext <b>M</b>arkup <b>L</b>anguage) is the heart of the web.
+        </p>
+        <p>HTML is made up of:</p>
+        <ul>
+          <li> Text content (What you see)</li>
+          <li>Markup (What the text looks like)</li>
+          <li>References to other documents (eg: images, videos, etc...)</li>
+          <li>Links to other pages</li>
+      </ul>
+    </div>
+    <div>
+      <p>Basic HTML vocabulary you should know:</p>
+  
+      <!-- I honestly couldn't figure this out from the videos, so I looked up an explanation at
+      http://www.456bereastreet.com/archive/200508/html_tags_vs_elements_vs_attributes/ . I am 
+      copying-rewording the explanation from that web page-->
+  
+      <b>Element:</b> A structure in HTML that consists of an opening tag, content, and a closing tag.<br>
+      <b>Tags:</b> Tags mark the beginning and end of an Element.  They are made of a less-than <br>
+      symbol, followed by the Element's name, followed by a greater-than symbol.<br>
+      <b>Attributes and values:</b>  Attributes follow tags and point to a value. Examples are<br>
+      images and links to other web pages<br><br>
+      <em> Elements can be either <em><b>inline</b></em> (effecting just the text enclosed by tags), or 
+      <b>block</b> <br>(block elements have an invisible box around them with height and 
+      width that separates<br> them from any other element).<br>
+      While most Elements have both an <em><b>opening</b></em> and <em><b>closing</b></em> tag,  
+      some Elements use only one tag<br> and are referred to as <b>void.</b></em><br>
+    </div>
+    <div>
+      <h2>A Couple Other Points to Remember:</h2>
+  
+        <h3>Computers are stupid</h3>
+        Why?  Because they interpret instruction literally.  If you use the wrong Element<br>
+        name in your opening tag or make a typo, a computer cannot "know" what you intended. 
+        <br> A program will only work if the instructions are clear and the grammar correct.
+        h3>There Is Far Too Much to Remember</h3>
+        Don't try to memorize every single fact.  Instead, concentrate on understanding<br>
+        how programming languages work, and rely on the internet to remind you of an <br>
+        Element's name or a particular structure.
+        <a href="http://imgur.com/sP5t5gz"><img src="http://i.imgur.com/sP5t5gz.jpg" title="source: imgur.com" /></a>
+    </div>
+  </div>
+  <div>
+    <H1>Unit 1.1: Creating a Structured Document</H1> 
+    <div>
+      <h2>Part 1: How Do Websites Work?</h2> 
+      <h2>Vocabulary:</h2>
+        <p><strong>HTML:</strong> A Language with syntax and rules that provides the structure of the web page</p>
+        <p><strong>CSS: Provides</strong> the styles seen on the web page</p>
+        <p><strong>Javascript:</strong> Allows actions/changes on the web page</p>
+        <p><strong>DOM</strong> (Document Object model): The standard convention for interacting with HTML</p>
+    </div>
+    <div>
+      <h2>Dig deep into code (in Chrome):</h2>
+      <ol>
+        <li>Click on the symbol in the top right corner made of
+          three lines (looks like a hamburger)</li>
+        <li>Choose "More Tools" from the menu</li>
+        <li>Choose "Developer Tools." A panel will open showing the structure of the web page you are on.  This is not the code, but how the browser interprets
+          it.</li>
+        <li>Click on the triangles to reveal hidden levels</li>
+        <li>This is the Tree-like structure of HTML</li>
+      </ol>
+      <p>For two good articles about Tree-like Structure, check
+        out the following Wikipedia pages:</p>
+      <ul>
+        <li><a href="http://en.wikipedia.org/wiki/Tree_structure">Tree Structure</a></li>
+        <li><a href="http://en.wikipedia.org/wiki/Tree_(data_structure)">Tree (Data Structure)</a></li>
+      </ul>  
+        <p>
+        Once you know the language, you can look at any HTML code and understand a great deal about how it will look as a web page.  Likewise, you can view any web page and know what the underlying code looks like.
+        </p>
+    </div>
+    <div>
+      <h2>Everything in HTML is a box:</h2>
+      <ul>
+        <li>We organize code by determining the placement and size of the largest "boxes" first, and defining smaller and smaller boxes into those spaces.</li>
+        <li>Every "box" is defined by the tag "div."</li>
+        <li>"Divs" can be nestled endlessly within other "Divs."</li>
+      </ul>
+    </div>
+    <div>
+      <h2>HTML works with CSS:</h2>
+        <p><strong>Check out the following line:</strong></p>
+        <ul>
+          <li>&lt;h1 class="article"&gt;</li>
+        </ul>
+        <p>
+          In this example, the word "class" is an attribute. It allows the user to add CSS style choices to every h1 element with the value "article."
+        </p>
+    </div>
+    <div>
+      <h2>Notes on Learning:</h2>
+        <p>As this course proceeds, we will be moving somewhere on a continuum from Novice to Expert in many different areas.  To do this, we will constantly stop to reflect on what we have learned, and we will practice as often as possible.</p>
+    </div>
+  </div>
   </body>
 </html>
-
-
-
-
-
-  </body>
-</html>
+    
+ 
