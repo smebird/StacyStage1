@@ -21,6 +21,8 @@ my Udacity course, "Introduction to Programming"*/
 }
 
 .Lesson1_1 {
+	border-color: #CCBD9B;
+	border-width: 10px;
 	max-width: 70%;
 	padding-right: 50px;
 	border-radius: 20px;
@@ -215,4 +217,9 @@ img {
 
 .reference {
 	color: white;
+}
+
+.Springtime {
+	display: flex;
+	max-width: 65%;
 }
