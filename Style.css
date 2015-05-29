@@ -1,6 +1,3 @@
-/*This comment is just to help me re-commit this file to github*/
-
-
 /*This is the CSS for my first webpage made during 
 my Udacity course, "Introduction to Programming"*/
 *{ 
@@ -10,51 +7,37 @@ my Udacity course, "Introduction to Programming"*/
 	box-sizing: border-box;
 }
 
-.image {
-	max-width: 460px;
-}
-.description {
-	max-width: 705px;
-}
-.app {
-	display: flex;
-}
+/* I have created three main backgrounds
+that alternate with each new section. 
 
-.Lesson1_1 {
-	border-color: #CCBD9B;
-	border-width: 10px;
+This selector sets the overall form that 
+will be used in every section */
+
+.MainContainer {
 	max-width: 70%;
 	padding-right: 50px;
 	border-radius: 20px;
+	padding-top: 10px;
+	padding-bottom: 30px;
+	margin-bottom: 50px;
+}
+
+/* The three selectors here change the
+background color of each section*/
+
+.MainBackColor_1 {
 	background-color: #7C8B88;
-	padding-top: 10px;
-	padding-bottom: 30px;
-	margin-bottom: 50px;
-	-webkit-margin page-break-after: 60px;
+	
 }
-
-
-.Lesson1_2 {
-	max-width: 70%;
-	padding-right: 50px;
-	border-radius: 20px;
+.MainBackColor_2 {
 	background-color: #847C8B;
-	padding-top: 10px;
-	padding-bottom: 30px;
-	margin-bottom: 50px;
-	-webkit-margin page-break-after: 60px;
+	
+}
+.MainBackColor_3 {
+	background-color: #797EB3;
 }
 
-.Lesson1_3 {
-	max-width: 70%;
-	padding-right: 50px;
-	border-radius: 20px;
-	background-color: #797EB3;
-	padding-top: 10px;
-	padding-bottom: 30px;
-	margin-bottom: 50px;
-	-webkit-margin page-break-after: 60px;
-}
+
 
 h1 {
 	font-family: Georgia;
@@ -63,21 +46,20 @@ h1 {
 	padding-bottom: 35px;
 	padding-left: 20px;
 	margin-left: 50px;
-	
 	margin-bottom: 40px;
 }
 
-h1.Heading1 {
+.Heading1 {
 	color: #204D1A;
 	background-color: #C1E6C5;
 }
 
-h1.Heading2 {
+.Heading2 {
 	color: #241154;
 	background-color: #CEA9F5;
 }
 
-h1.Heading3 {
+.Heading3 {
 	color: #112554;
 	background-color: #9F9CFF;
 }
@@ -90,24 +72,24 @@ h2  {
 	padding-left: 20px;
 	padding-bottom: 15px;
 	padding-right: 50px;
-	
 }
 
 
-h2.Title1  {
+.Title1  {
 	color: #112554;
 	background-color: #C3DCE6;
 }
 
-h2.Title2  {
+.Title2  {
 	color: #241547;
 	background-color: #CBB8E3;
 }
 
-h2.Title3  {
+.Title3  {
 	color: #112554;
 	background-color: #C4BBFC;
 }
+
 
 h3 {
 	font-family: Georgia;
@@ -119,107 +101,99 @@ h3 {
 }
 
 
-h3.Subtitle1 {
+.Subtitle1 {
 	color: #331A4D;
 	background-color: #B6CDD6;
 }
 
-h3.Subtitle2 {
+.Subtitle2 {
 	color: #281D40;
 	background-color: #B7AEC2;
 }
 
-h3.Subtitle3 {
+.Subtitle3 {
 	color: #141552;
 	background-color: #9491ED;
 }
 
 p {
 	font-family: Georgia;
-	font-size: 16px;
+	font-size: 20px;
+}
+
+.TextFormat {
 	margin-left: 50px;
+	margin-bottom: 30px;
 	padding-top: 10px;
 	padding-bottom: 10px;
 	padding-right: 50px;
 	padding-left: 20px;
 }
 
-p.Text1 {
+
+
+
+.Text1 {
 	color: #1A294D;
 	background-color: #B6CDD6;
 }
-
-p.Text2 {
+.Text2 {
 	color: #281D40;
 	background-color: #B7AEC2;
 }
-
-p.Text3 {
+.Text3 {
 	color: #1A294D;
 	background-color: #9491ED;
 }
+
 
 ul {
+	font-size: 18px;
 	font-family: Georgia;
-	margin-left: 50px;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	padding-right: 50px;
-	padding-left: 50px;
+	padding-bottom: 20px;
+	padding-right: 70px;
+	padding-left: 70px;
 }
 
-ul.Bullets1 {
-	color: #1A294D;
-	background-color: #B6CDD6;
+
+.Circles3 {
+	font-size: 18px;
+	padding-right: 140px;
+	padding-left: 90px;
+	padding-bottom: 20px;
+	list-style: circle;
+	
 }
-ul.Bullets2 {
-	color: #1A294D;
-	background-color: #B6A9C2;
-}
-ul.Bullets3 {
-	color: #1A294D;
-	background-color: #9491ED;
+
+.NoBullets {
+	font-size: 18px;
+	padding-right: 40px;
+	padding-left: 30px;
+	padding-bottom: 20px;
+	list-style: none;
+	
 }
 
 ol {
+	font-size: 18px;
 	font-family: Georgia;
-	margin-left: 50px;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	padding-right: 50px;
-	padding-left: 50px;
+	padding-bottom: 20px;
+	padding-right: 70px;
+	padding-left: 70px;
 }
 
-ol.Ordered1 {
-	color: #1A294D;
-	background-color: #B6CDD6;
-}
 
-ol.Ordered2 {
-	color: #1A294D;
-	background-color: #B6A9C2;
-}
-
-ol.Ordered3 {
-	color: #1A294D;
-	background-color: #9491ED;
-}
-
-img {
-	margin-left: 50px;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	background-color: #B6CDD6;
-	padding-right: 50px;
-	padding-left: 5px;
-	padding-right: 5px;
-}
 
 .reference {
+	font-size: 16px;
 	color: white;
 }
 
-.Springtime {
-	display: flex;
-	max-width: 65%;
+
+.ImageFormat {
+	margin-left: 45px;
+	padding-top: 5px;
+	padding-bottom: 7px;
+	padding-right: 5px;
+	padding-left: 5px;
 }
